@@ -20,26 +20,133 @@ The number of your chosen topic: `#`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+
+The purpose of this survey is to understand voter preferences and priorities one month before the federal election.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+
+- Target Population: Canadian voters who are eligible to vote in the upcoming federal election.
+
+- Sampling Frame: A comprehensive list of registered voters obtained from the national electoral register.
+
+- Sampling Units: Individual registered voters.
+
+- Overall Sampling Strategy: Stratified sampling will be employed to ensure representation across various provinces, age groups, and demographic segments. This approach aims to capture diverse opinions and provide a more accurate reflection of the voter base.
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+
+1. What issue is most important to you in the upcoming federal election? (Select one)
+
+    - Economy and jobs
+    - Healthcare
+    - Education
+    - Environment and climate change
+    - Immigration
+    - National security
+    - Other (please specify)
+
+2. In your current life, what is the most concerning or dissatisfying issue you face? 
+
+    - Price stability
+    - Job opportunities
+    - Parenting and childcare
+    - Elderly care
+    - Taxation concerns
+    - Public resources access (including healthcare)
+    - Education quality
+    - Immigration challenges
+    - Safety and security
+    - Quality of life convenience
+    - Commute convenience
+    - Housing affordability (buying or renting)
+    - Other (please specify)
+
+3. How satisfied are you with the current policies on the issue you consider most important in your current life? (Rate on a scale of 1 to 5, with 1 being very dissatisfied and 5 being very satisfied)
+
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+
+4. What specific measures would you like our party to address the issues in your current life? (Select all that apply)
+
+    - Reduce prices
+    - Increase job opportunities
+    - Improve parenting and childcare services
+    - Enhance access to public resources (including healthcare)
+    - Enhance education quality
+    - Address immigration challenges
+    - Strengthen safety and security measures
+    - Enhance quality of life convenience
+    - Improve commute convenience
+    - Reduce housing affordability burden
+    - Address elderly care
+    - Address taxation concerns
+    - Other (please specify)
+
+5. In addition to the above, what do you believe is the most pressing issue for your community that needs to be addressed? (Select all that apply)
+
+    - Environmental sustainability
+    - Public infrastructure improvements
+    - Community healthcare facilities
+    - Access to affordable housing
+    - Local economic development
+    - Social equity and inclusion
+    - Public safety initiatives
+    - Educational resources for all ages
+    - Cultural and recreational facilities
+    - Other (please specify)
+
+6. What changes or improvements would you like to see from the government in the next four years? (Open-ended)
+
+7. Which policies or measures do you think best reflect our party's strengths in the campaign? 
+
+    - Providing training and employment opportunities
+    - Making healthcare more accessible 
+    - Enhancing education quality and reducing costs
+    - Promoting environmental sustainability and taking action on local climate issues
+    - Supporting social programs that help vulnerable populations
+    - Investing in better infrastructure and improving local transportation
+    - Strengthening public safety and local law enforcement
+    - Encouraging innovation and advancing technology for local businesses and communities
+    - Addressing community issues and improving local services
+    - Other (please specify)
+
+8. What measure by the opposition party do you most favor?
+
+    - Economic reform proposals
+    - Healthcare policy initiatives
+    - Education reform efforts
+    - Environmental protection measures
+    - Immigration policy changes
+    - Public safety initiatives
+    - Social welfare programs
+    - Infrastructure development plans
+    - Taxation policies
+    - Other (please specify)
+
+9. How often do you follow news and updates about the federal election? (Select one)
+   - Daily
+   - Several times a week
+   - Once a week
+   - Rarely
+   - Never
+
+10. Through which channels would you prefer to receive more information about our party? (Select all that apply)
+    - Social media
+    - Email
+    - Newspaper
+    - TV
+    - Offline events
+    - Other (please specify)
+
 ```
 
 ## Rubric
