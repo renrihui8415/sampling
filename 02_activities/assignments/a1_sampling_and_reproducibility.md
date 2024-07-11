@@ -6,7 +6,7 @@ Examine the code in `whitby_covid_tracing.py`. Identify all stages at which samp
 
 Run the Python script file called whitby_covid_tracing.py as is and compare the results to the graphs in the original blog post. Does this code appear to reproduce the graphs from the original blog post?
 
-Modify the number of repetitions in the simulation to 1000 (from the original 50000). Run the script multiple times and observe the outputted graphs. Comment on the reproducibility of the results.
+Modify the number of repetitions in the simulation to 5000 (from the original 50000). Run the script multiple times and observe the outputted graphs. Comment on the reproducibility of the results.
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
@@ -39,7 +39,7 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 4. Post-Simulation Sampling:
 
 - Procedure: After simulating the infection and tracing processes, repeat the entire process for multiple times (1000 iterations), plots histograms of proportions of infections and traces attributed to weddings.
-- Function: results = [simulate_event(m) for m in range(1000)]
+- Function: results = [simulate_event(m) for m in range(5000)]
 - Sample Size: 1000 iterations (determined by the range in the simulate_event function).
 - Sampling Frame: Proportions calculated from the simulation results.
 
