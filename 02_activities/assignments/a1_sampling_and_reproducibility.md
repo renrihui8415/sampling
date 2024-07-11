@@ -38,9 +38,9 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 
 4. Post-Simulation Sampling:
 
-- Procedure: After simulating the infection and tracing processes, repeat the entire process for multiple times (1000 iterations), plots histograms of proportions of infections and traces attributed to weddings.
+- Procedure: After simulating the infection and tracing processes, repeat the entire process for multiple times (5000 iterations), plots histograms of proportions of infections and traces attributed to weddings.
 - Function: results = [simulate_event(m) for m in range(5000)]
-- Sample Size: 1000 iterations (determined by the range in the simulate_event function).
+- Sample Size: 5000 iterations (determined by the range in the simulate_event function).
 - Sampling Frame: Proportions calculated from the simulation results.
 
 ## Q2: Does this code appear to reproduce the graphs from the original blog post?
