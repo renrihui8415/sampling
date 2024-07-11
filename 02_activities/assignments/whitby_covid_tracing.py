@@ -79,8 +79,8 @@ if os.path.exists('results.csv'):
     props_df = pd.read_csv('results.csv')
 else:
   print('result.csv not exist. Generating the results data for plot.')
-  # Run the simulation 1000 times
-  results = [simulate_event(m) for m in range(1000)]
+  # Run the simulation 5000 times
+  results = [simulate_event(m) for m in range(5000)]
   # Save the results to disk 
   props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
   props_df.to_csv('results.csv', index=False)
