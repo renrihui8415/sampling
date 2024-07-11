@@ -34,7 +34,7 @@ Describe your target population, sampling frame, sampling units, and observation
 
 - Sampling Units: Individual registered voters.
 
-- Overall Sampling Strategy: Stratified sampling will be employed to ensure representation across various provinces, age groups, and demographic segments. This approach aims to capture diverse opinions and provide a more accurate reflection of the voter base.
+- Overall Sampling Strategy: Stratified sampling will be prioritized to ensure representation across various provinces, age groups, and demographic segments, aiming to capture diverse opinions and provide an accurate reflection of the voter base. If resources permit, we will utilize stratified or quota sampling; otherwise, we will consider random sampling.
 
 ```
 
