@@ -29,7 +29,7 @@
 
     Reasoning: This revision provides clearer guidance to respondents, ensuring more focused and actionable responses. It helps avoid vague or broad answers, thereby improving the usefulness of the collected data for policy planning and analysis.
 
-    I have updated the original survey accordingly and made this change. https://github.com/renrihui8415/sampling/blob/questionnaire-a/02_activities/assignments/a2_questionnaire_design_part_a.md.
+    I have updated the original survey accordingly. [My GitHub Repository](https://github.com/renrihui8415/sampling/blob/questionnaire-a/02_activities/assignments/a2_questionnaire_design_part_a.md).
 
     ```
 
