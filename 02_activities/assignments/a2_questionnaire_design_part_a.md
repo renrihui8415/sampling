@@ -104,7 +104,8 @@ Your 5-10 question survey:
     - Cultural and recreational facilities
     - Other (please specify)
 
-6. What changes or improvements would you like to see from the government in the next four years? (Open-ended)
+6. What specific policies or actions would you prioritize for the government to address in the next four years? Please list up to three main priorities.
+(Open-ended)
 
 7. Which policies or measures do you think best reflect our party's strengths in the campaign? 
 
