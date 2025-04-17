@@ -32,6 +32,7 @@ def simulate_event(m):
   - A tuple containing the proportion of infections and the proportion of traced cases
     that are attributed to weddings.
   """
+
   # Create DataFrame for people at events with initial infection and traced status
   events = ['wedding'] * 200 + ['brunch'] * 800
   ppl = pd.DataFrame({
@@ -67,12 +68,23 @@ def simulate_event(m):
 
   return p_wedding_infections, p_wedding_traces
 
-# Set the random seed for reproducibility
-np.random.seed(10)
+# Method 1 : Set the random seed for reproducibility
+# np.random.seed(10)
 
-# Run the simulation 1000 times
-results = [simulate_event(m) for m in range(1000)]
-props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
+# Method 2: Save the results to the disk for reproducibility
+props_df = None
+import os
+if os.path.exists('results.csv'):
+    print('results.csv already exists. Reading data from the file for reproducibility.')
+    props_df = pd.read_csv('results.csv')
+else:
+  print('result.csv not exist. Generating the results data for plot.')
+  # Run the simulation 5000 times
+  results = [simulate_event(m) for m in range(5000)]
+  # Save the results to disk 
+  props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
+  props_df.to_csv('results.csv', index=False)
+  print('results.csv has been saved to the disk for reproducibility.')
 
 # Plotting the results
 plt.figure(figsize=(10, 6))
